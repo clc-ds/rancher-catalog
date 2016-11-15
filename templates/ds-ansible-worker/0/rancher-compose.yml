@@ -1,4 +1,13 @@
 ---
+.catalog:
+  name: # Perhaps name and build time
+  version: latest
+  description: # Perhaps new features go here
+  minimum_rancher_version: 1.1.4
+  maximum_rancher_version: 1.2
+  upgrade_from: latest
+  questions: # user input
+
 ds-ansible-worker:
   scale: 2
   health_check:
