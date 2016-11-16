@@ -1,11 +1,11 @@
 ---
 .catalog:
-  name: RDBS Ansible Worker (latest)
-  version: latest
-  description: Daily development builds of ds-ansible-worker
+  name: RDBS Ansible Worker
+  version: 0.0.1
+  description: Orchestration manager for customer vlan deployed subscriptions
   minimum_rancher_version: v1.1.4
   maximum_rancher_version: v1.2
-  upgrade_from: latest
+  upgrade_from: "<=0.0.1"
   questions: # user input
 
 ds-ansible-worker:
