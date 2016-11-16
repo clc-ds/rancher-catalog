@@ -1,5 +1,5 @@
 ---
-name: RDBS Ansible Worker (latest)
+name: RDBS Ansible Worker
 description: Orchestration manager for customer vlan deployed subscriptions
 version: 0
 category: rdbs
