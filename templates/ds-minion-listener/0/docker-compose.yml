@@ -1,0 +1,9 @@
+---
+ds-minion-listener:
+  ports:
+    - 8082:8080/tcp
+  labels:
+    io.rancher.container.pull_image: always
+  tty: true
+  image: repo.rdbs.ctl.io:16002/io.ctl.rdbs/ds-minion-listener:latest
+  stdin_open: true
