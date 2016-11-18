@@ -3,6 +3,6 @@ name: RDBS Minion Courier
 description: Minion routing system - router
 version: 0
 category: rdbs
-maintainer: steven.tarver@ctl.eieio
+maintainer: steven.tarver@ctl.io
 license: None
 projectURL: https://github.com/CenturyLinkCloud/ds-minion-courier

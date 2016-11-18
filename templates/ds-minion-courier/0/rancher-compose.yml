@@ -7,16 +7,16 @@
   maximum_rancher_version: v1.2
   upgrade_from: latest
   questions: # TODO: this should be replaced by consul, are they better as environment variables
-    - variable: DB_URL
-      label: Database cxn string
-      description: A CMDB connection string in Go format
-      required: true
-      type: string
-    - variable: AMQP_URL
-      label: RabbitMQ cxn string
-      description: A RabbitMQ connection string in Go format
-      required: true
-      type: string
+#    - variable: DB_URL
+#      label: Database cxn string
+#      description: A CMDB connection string in Go format
+#      required: true
+#      type: string
+#    - variable: AMQP_URL
+#      label: RabbitMQ cxn string
+#      description: A RabbitMQ connection string in Go format
+#      required: true
+#      type: string
 
 ds-ansible-worker:
   scale: 2
